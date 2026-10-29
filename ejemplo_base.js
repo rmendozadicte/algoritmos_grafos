@@ -44,6 +44,7 @@ class GrafoPorNiveles{
                     visitados.set(vecino,true);
 
                     cola.push({ nodo: vecino, nivel: actual.nivel + 1 })
+
                 }
             }
         }
@@ -60,4 +61,4 @@ grafos.agregarArista("carlos","diana");
 grafos.agregarArista("bruno","maria");
 grafos.agregarArista("diana","jose");
 
-grafos.algoritmoBfs("ana");
+grafos.algoritmoBfs("diana");
